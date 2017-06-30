@@ -140,3 +140,5 @@ class SyncLDAP(object):
                     callback = import_string(path)
                     callback(user)
                     logger.debug("Called %s for user %s" % (path, username))
+
+# EOF
